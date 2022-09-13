@@ -665,4 +665,4 @@ if (interaction.customId == `no`) {
 
 
 
-  client.login(config.token)
+  client.login(process.env.token)
