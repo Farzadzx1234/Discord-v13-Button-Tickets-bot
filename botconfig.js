@@ -16,6 +16,6 @@ module.exports = {
     description: "To create a ticket, click the button that suits your request!",
     footer: "By Visa2Code"
   },
-token: process.env.TOKEN || "",
-mongo: process.env.MONGO || ""
+token: process.env.token || "",
+mongo: process.env.Mongo || ""
 };
