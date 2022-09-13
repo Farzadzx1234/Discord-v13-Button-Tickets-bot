@@ -54,7 +54,7 @@ const client = new Discord.Client({
 require("dotenv").config()
 
 const { Database } = require("quickmongo");
-const db = new Database(config.mongo)
+const db = new Database(process.env.Mongo)
 const randomstring = require("randomstring");
 
 let support = new Discord.MessageButton()
